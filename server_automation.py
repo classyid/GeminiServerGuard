@@ -254,7 +254,7 @@ def identify_high_resource_service():
         return None
         
         
-def send_telegram_notification(message, token="1002661456:AAHeJjzqrmqAuf6IQX1mpSHaALa5TSTw0mw", chat_id="479325139"):
+def send_telegram_notification(message, token="<ID-TOKEN>", chat_id="<ID-CHAT>"):
     """Mengirim notifikasi ke Telegram"""
     try:
         url = f"https://api.telegram.org/bot{token}/sendMessage"
