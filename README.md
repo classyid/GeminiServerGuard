@@ -1,5 +1,7 @@
 # GeminiServerGuard 🛡️🤖
 
+![Screenshoot](https://blog.classy.id/upload/gambar_berita/7a625a78a6058f7074406b7ba24e7644_20250417153117.jpg)
+
 GeminiServerGuard adalah sistem monitoring server otomatis yang menggunakan kecerdasan buatan Google Gemini untuk menganalisis metrik server, mendeteksi masalah, dan melakukan tindakan perbaikan secara otomatis. Sistem ini terintegrasi dengan Prometheus untuk pengumpulan metrik dan Telegram untuk notifikasi real-time.
 
 ## ✨ Fitur
