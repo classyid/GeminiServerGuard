@@ -40,15 +40,14 @@ GeminiServerGuard adalah sistem monitoring server otomatis yang menggunakan kece
    pip install google-generativeai requests pyyaml ansible-runner
    ```
 
-4. Perbarui file konfigurasi:
+4. Install aplikasi tambahan:
    ```bash
-   cp config.example.yml config.yml
-   # Edit config.yml dengan API key Gemini, token Telegram, dll.
+   apt-get install ansible  
    ```
 
 5. Jalankan untuk pertama kali:
    ```bash
-   python server_automation.py
+   python3 server_automation.py
    ```
 
 ## ⚙️ Konfigurasi
